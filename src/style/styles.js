@@ -1,13 +1,13 @@
 import styled, { createGlobalStyle } from 'styled-components';
 
 export const orangeColor = '#FB8F3D',
-  blackColor = '#040404';
+  blackColor = '#040404',
+  grayColor = '#dddddd';
 
 export const GlobalStyles = createGlobalStyle`
 
 *{
   margin: 0;
-  padding: 0;
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
   padding: 5px
