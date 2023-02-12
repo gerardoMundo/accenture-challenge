@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 
-export const Posts = ({ title, comments, content }) => {
+export const Post = ({ title, comments, content }) => {
   return (
     <div>
       <h2>{title}</h2>
@@ -10,7 +10,7 @@ export const Posts = ({ title, comments, content }) => {
   );
 };
 
-Posts.propTypes = {
+Post.propTypes = {
   title: PropTypes.string,
   comments: PropTypes.string,
   content: PropTypes.string,
