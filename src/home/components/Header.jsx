@@ -1,5 +1,10 @@
-import React from 'react';
+import { SubTitle, Title } from '../../style';
 
 export const Header = () => {
-  return <div>Header</div>;
+  return (
+    <>
+      <SubTitle>[Making your life easier]</SubTitle>
+      <Title>Discovering the World</Title>
+    </>
+  );
 };
