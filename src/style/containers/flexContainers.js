@@ -26,6 +26,11 @@ export const NavBarContainer = styled.div`
       }
     }
   }
+
+  @media (max-width: 460px) {
+    font-size: 15px;
+    max-width: 20px;
+  }
 `;
 
 export const HeaderContainer = styled.div`
