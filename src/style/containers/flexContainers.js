@@ -41,6 +41,8 @@ export const HeaderContainer = styled.div`
 `;
 
 export const PostContainer = styled.div`
+  padding: 100px 100px 20px 20px;
+
   background-image: url(${(props) => props.imgUrl});
   background-repeat: no-repeat;
   background-size: cover;
@@ -55,6 +57,10 @@ export const PostContainer = styled.div`
 
   h2 {
     font-weight: bold;
+  }
+
+  h4 {
+    text-transform: uppercase;
   }
 
   h5 {
