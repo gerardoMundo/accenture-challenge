@@ -1,4 +1,4 @@
-import { Header, NavBar, GridPage } from './components';
+import { Header, GridPage, NavBar } from './components';
 
 export const HomePage = () => {
   return (

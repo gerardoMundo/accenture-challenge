@@ -1,3 +1,3 @@
 export * from './Header';
-export * from './NavBar';
+export * from './navbar';
 export * from './GridPage';
